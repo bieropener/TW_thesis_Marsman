@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="2" buiging="met-e" end="3" getal-n="mv-n" id="4" index="1" lemma="belang_stellen" pos="noun" positie="nom" postag="WW(od,nom,met-e,mv-n)" pt="ww" rel="su" root="belangstellende" word="belangstellenden" wvorm="od"/>
+      <node begin="4" end="5" id="5" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+      <node begin="0" cat="inf" end="19" id="6" rel="vc">
+        <node begin="0" end="1" id="7" lemma="daarnaast" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarnaast" word="Daarnaast"/>
+        <node begin="2" end="3" id="8" index="1" rel="su"/>
+        <node begin="3" end="4" id="9" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="project_voorstel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="project_voorstel" word="projectvoorstel"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="in_dienen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dien_in" word="indienen" wvorm="inf"/>
+        <node begin="8" cat="pp" end="19" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="9" cat="np" end="19" id="16" rel="obj1">
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="voorwaarde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorwaarde" word="voorwaarde"/>
+            <node begin="10" cat="cp" end="19" id="18" rel="vc">
+              <node begin="10" conjtype="onder" end="11" id="19" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+              <node begin="11" cat="ssub" end="19" id="20" rel="body">
+                <node begin="11" end="12" getal="ev" id="21" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="dit"/>
+                <node begin="13" end="14" id="22" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+                <node begin="12" cat="ap" end="19" id="23" rel="predc">
+                  <node begin="12" buiging="zonder" end="13" graad="basis" id="24" lemma="inpasbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="inpasbaar" word="inpasbaar"/>
+                  <node begin="14" cat="pp" end="19" id="25" rel="mod">
+                    <node begin="14" end="15" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="16" cat="mwu" end="19" id="27" rel="obj1">
+                      <node begin="16" end="17" id="28" lemma="The" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="The" spectype="vreemd" word="The"/>
+                      <node begin="17" end="18" id="29" lemma="Language" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Language" spectype="vreemd" word="Language"/>
+                      <node begin="18" end="19" id="30" lemma="Blueprint" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Blueprint" spectype="vreemd" word="Blueprint"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="20" end="21" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarnaast kunnen belangstellenden ook zelf een projectvoorstel indienen op voorwaarde dat dit inpasbaar is in &apos; The Language Blueprint &apos; .</sentence>
+</alpino_ds>

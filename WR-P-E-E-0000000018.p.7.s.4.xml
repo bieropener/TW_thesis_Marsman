@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="26" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="telefoon_nummer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="telefoon_nummer" word="telefoonnummer"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="np" end="26" id="7" rel="predc">
+        <node begin="3" end="4" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="extra" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="extra" word="extra"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dienst" word="dienst"/>
+        <node begin="6" cat="pp" end="26" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="26" id="13" rel="obj1">
+            <node begin="7" end="8" id="14" lemma="Vakantietaal.nl" pos="name" postag="SPEC(symb)" pt="spec" rel="hd" root="Vakantietaal.nl" spectype="symb" word="Vakantietaal.nl"/>
+            <node begin="9" cat="np" end="26" id="15" rel="app">
+              <node begin="9" end="10" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="web_site" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="website" word="website"/>
+              <node begin="11" cat="rel" end="26" id="18" rel="mod">
+                <node begin="11" end="12" getal="getal" id="19" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+                <node begin="11" cat="ssub" end="26" id="20" rel="body">
+                  <node begin="12" end="13" getal="mv" graad="basis" id="21" index="2" lemma="reiziger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="reiziger" word="reizigers"/>
+                  <node begin="18" end="19" id="22" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+                  <node begin="11" cat="conj" end="26" id="23" rel="vc">
+                    <node begin="11" cat="inf" end="22" id="24" rel="cnj">
+                      <node begin="11" end="12" id="25" index="1" rel="mod"/>
+                      <node begin="12" end="13" id="26" index="2" rel="su"/>
+                      <node begin="13" cat="pp" end="16" id="27" index="3" rel="mod">
+                        <node begin="13" end="14" id="28" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+                        <node begin="14" cat="np" end="16" id="29" rel="obj1">
+                          <node begin="14" end="15" id="30" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+                          <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="31" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+                        </node>
+                      </node>
+                      <node begin="16" buiging="zonder" end="17" graad="basis" id="32" lemma="lastminute" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="lastminute" word="lastminute"/>
+                      <node begin="17" end="18" getal="mv" graad="basis" id="33" index="4" lemma="taal_cursus" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="taal_cursus" word="taalcursussen"/>
+                      <node begin="19" buiging="zonder" end="20" id="34" lemma="downloaden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="download" word="downloaden" wvorm="inf"/>
+                      <node begin="20" cat="pp" end="22" id="35" rel="mod">
+                        <node begin="20" end="21" id="36" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                        <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="37" lemma="mp3" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="mp3" word="mp3"/>
+                      </node>
+                    </node>
+                    <node begin="22" conjtype="neven" end="23" id="38" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                    <node begin="11" cat="inf" end="26" id="39" rel="cnj">
+                      <node begin="11" end="12" id="40" index="1" rel="mod"/>
+                      <node begin="12" end="13" id="41" index="2" rel="su"/>
+                      <node begin="13" end="16" id="42" index="3" rel="mod"/>
+                      <node begin="17" end="18" id="43" index="4" rel="obj1"/>
+                      <node begin="23" cat="pp" end="25" id="44" rel="mod">
+                        <node begin="23" end="24" id="45" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                        <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="46" lemma="cd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="cd" word="cd"/>
+                      </node>
+                      <node begin="25" buiging="zonder" end="26" id="47" lemma="bestellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bestel" word="bestellen" wvorm="inf"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het telefoonnummer is een extra dienst van Vakantietaal.nl , een website waar reizigers sinds twee jaar lastminute taalcursussen kunnen downloaden in mp3 of op cd bestellen .</sentence>
+</alpino_ds>
